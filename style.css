@@ -113,23 +113,105 @@ li {
 
 .my-plan {
     margin: 20px;
-   padding-bottom: 50px;
-    color:  #151414;
-    text-align: center;    
-    font-size: 40px;    
-    font-weight: 700;    
+    padding-bottom: 50px;
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
 }
-.plan-container{
+
+.plan-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;
     margin-bottom: 40px;
 }
-.possitive{    
+
+.possitive {
     width: 100%;
-    background: url('../images/watch.png');
+    height: 300px;
+    padding-bottom: 30px;
+    background: url('../images/gradient1.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #5346a0;
+    /* background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg');
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px; */
+}
+
+.possitive-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px;
+    padding-top: 80px;
+}
+
+.nav-btn {
+    margin-left: 50px;
+}
+
+footer {
+    margin-top: 95px;
+    background-color: black;
+    color: #FFF;
+    padding: 100px 100px 30px 100px;
+}
+
+.footer {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.future {
+    padding-bottom: 10px;
+}
+
+.future-p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.future-ep {
+    margin: 20px 0;
+    color: #FFF;    
+    font-size: 16px;   
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.subscribe {
+    padding: 50px;
+}
+
+.sub-input {
+    width: 250px;
+    height: 45px;
+    border: 0;
+    border-radius: 2px;
+    margin: 20px 0px 10px 0px;
+}
+
+.sub-btn {
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 8px;
+    background: #005FAC;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-end{
+    text-align: center;
 }
